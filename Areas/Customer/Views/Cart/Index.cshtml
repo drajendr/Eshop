@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<style>
+    .remove-from-cart {
+    display: inline-block;
+    color: #ff5252;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none
+}
+</style>
+<h1>Cart List <i class="fa fa-shopping-cart" aria-hidden="true"></i></h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th class="text-center">Product Name</th>
+            <th class="text-center">Quantity</th>
+            <th class="text-center">Sub Total</th>
+            <th class="text-center">Clear Item</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (ViewBag.cart != null && ViewBag.cart.Count != 0)
+        {
+            @foreach (var item in ViewBag.cart)
+            {
+                <tr>          
+                    <td class="text-center"><img src="~/@item.Product.ProductImage" style="max-height:50px; max-width:50px;" class="img-fluid rounded-start" alt="..."></td>
+                    <td class="text-center"><b>@item.Product.ProductName</b><br />
+                        <small class="text-muted">Price : $@item.Product.Price</small>   
+                    </td>
+                    <td class="text-center">@item.Quantity</td>
+                    <td class="text-center">$@(item.Product.Price * item.Quantity)</td>
+                    <td class="text-center"><a asp-action="remove" asp-controller="Cart" asp-area="Customer" asp-route-id="@item.Product.ProductId" class="remove-from-cart" ><i class="fa fa-trash"></i></a> </td>
+                </tr>
+            }
+            <tr>
+              <td></td>
+              <td></td>
+              <td class="text-center"><b>Total</b></td>
+              <td class="text-center"><b>$@ViewBag.total</b></td>
+              <td><a asp-action="Checkout" asp-controller="Billing" asp-area="Customer" class="btn btn-success">Click for payment</a></td>
+            </tr>
+        }        
+  </tbody>
+</table>
+<a asp-action="Index" asp-controller="Home" asp-area="Customer" class="btn btn-dark" >Back to Shopping</a>

@@ -1,0 +1,60 @@
+2022-02-25T19:34:39.0029735+05:30 [INF] () Application Starting Up
+2022-02-25T19:34:44.2293360+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 1113.9674 ms
+2022-02-25T19:35:07.4944881+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Register" responded 200 in 8592.7986 ms
+2022-02-25T19:35:10.4687684+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 18.4099 ms
+2022-02-25T19:35:11.1164216+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Register" responded 200 in 24.4402 ms
+2022-02-25T19:35:31.1093184+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 17.9234 ms
+2022-02-25T19:36:15.1049800+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 21.7889 ms
+2022-02-25T19:37:11.3788419+05:30 [INF] () Application Starting Up
+2022-02-25T19:37:12.8111135+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 377.9170 ms
+2022-02-25T19:37:21.3344096+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LoginModel) User logged in.
+2022-02-25T19:37:21.3427158+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Login" responded 302 in 4343.1056 ms
+2022-02-25T19:37:21.3857114+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Home/Index" responded 302 in 18.3493 ms
+2022-02-25T19:37:21.7864263+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin" responded 200 in 390.7464 ms
+2022-02-25T19:37:59.7474401+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Roles" responded 200 in 115.5959 ms
+2022-02-25T19:38:24.2304566+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Category" responded 200 in 86.7258 ms
+2022-02-25T19:39:12.3844107+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/SubCategory" responded 200 in 157.6813 ms
+2022-02-25T19:39:36.2223023+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Category" responded 200 in 67.8330 ms
+2022-02-25T19:39:39.2469778+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Category/Create" responded 200 in 71.7780 ms
+2022-02-25T19:40:17.3850590+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Admin/Category/Create" responded 302 in 379.2789 ms
+2022-02-25T19:40:17.4373840+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Category" responded 200 in 35.6821 ms
+2022-02-25T19:40:52.0038856+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/SubCategory" responded 200 in 83.7317 ms
+2022-02-25T19:42:59.8071779+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Category" responded 200 in 66.9457 ms
+2022-02-25T19:43:08.8719570+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Category/Create" responded 200 in 31.6110 ms
+2022-02-25T19:43:18.4412716+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Category" responded 200 in 31.0769 ms
+2022-02-25T19:43:35.6452146+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/SubCategory" responded 200 in 45.9103 ms
+2022-02-25T19:43:37.6003033+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/SubCategory/Create" responded 200 in 254.3105 ms
+2022-02-25T19:43:49.4748140+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Admin/SubCategory/Create" responded 302 in 54.5427 ms
+2022-02-25T19:43:49.5131301+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/SubCategory" responded 200 in 27.7394 ms
+2022-02-25T19:43:51.6264608+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/SubCategory/Create" responded 200 in 39.4526 ms
+2022-02-25T19:44:08.9718237+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Admin/SubCategory/Create" responded 302 in 25.5435 ms
+2022-02-25T19:44:09.0160108+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/SubCategory" responded 200 in 34.1399 ms
+2022-02-25T19:44:17.8283367+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin" responded 200 in 57.9943 ms
+2022-02-25T19:45:23.3382201+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Product/Create" responded 200 in 109.7510 ms
+2022-02-25T19:45:52.3084486+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Product/GetSubCategory" responded 200 in 105.8157 ms
+2022-02-25T19:45:55.6675060+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Admin/Product/Create" responded 302 in 154.9872 ms
+2022-02-25T19:45:55.7339484+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin" responded 200 in 57.2767 ms
+2022-02-25T19:46:09.1686237+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LogoutModel) User logged out.
+2022-02-25T19:46:09.1698740+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Logout" responded 302 in 20.9017 ms
+2022-02-25T19:46:09.2039846+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 20.0779 ms
+2022-02-25T19:46:14.9663025+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LoginModel) User logged in.
+2022-02-25T19:46:14.9675868+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Login" responded 302 in 49.9395 ms
+2022-02-25T19:46:15.0411300+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home/Index" responded 200 in 63.0163 ms
+2022-02-25T19:47:01.6656914+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 11
+2022-02-25T19:47:02.0624961+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/11" responded 302 in 408.8884 ms
+2022-02-25T19:47:02.3593095+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 245.7099 ms
+2022-02-25T19:47:20.7929047+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 34.1008 ms
+2022-02-25T19:47:25.2683170+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 11
+2022-02-25T19:47:25.2755455+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/11" responded 302 in 8.8895 ms
+2022-02-25T19:47:25.3145090+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 28.3609 ms
+2022-02-25T19:47:34.6916635+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 22.4058 ms
+2022-02-25T19:47:39.1213288+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 9
+2022-02-25T19:47:39.1458825+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/9" responded 302 in 25.5339 ms
+2022-02-25T19:47:39.1705676+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 15.7924 ms
+2022-02-25T19:47:49.0827696+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 21.3505 ms
+2022-02-25T19:47:56.2771701+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 14.1166 ms
+2022-02-25T19:48:04.2244683+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Billing/Checkout" responded 200 in 99.9037 ms
+2022-02-25T19:48:50.3646813+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 57.3929 ms
+2022-02-25T19:49:22.9037614+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Manage" responded 200 in 111.3211 ms
+2022-02-25T19:49:48.3098736+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 58.3765 ms
+2022-02-25T19:58:58.3930462+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 847.2401 ms

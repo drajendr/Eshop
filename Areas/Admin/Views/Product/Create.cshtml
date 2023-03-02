@@ -1,0 +1,89 @@
+﻿@model EShop.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">  
+   $(document).ready(function () {  
+       //var items = "<option value=''>Select</option>";
+       //$('#ProductSubCategoryId').html(items);       
+        $('#ProductCategoryId').change(function () {  
+            $.ajax({  
+                type: "Get",  
+                url: '@Url.Content("~/")'+"Admin/Product/GetSubCategory",  
+                data: { id: $('#ProductCategoryId').val() },  
+                datatype: "json",  
+                traditional: true,  
+                success: function (data) {  
+                    console.log(data);
+                    var items = '<option value="">Select</option>';
+                    $("#ProductSubCategoryId").empty();
+                    $.each(data,function(i,subCategory){
+                        items += "<option value='"+subCategory.value+"'>"+subCategory.text+"</option>";
+                    })
+                    $('#ProductSubCategoryId').html(items);                    
+                }  
+            });  
+        });  
+    });
+</script>  
+<h4>Create Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProductName" class="control-label"></label>
+                <input asp-for="ProductName" class="form-control" />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" type="number" step="0.01" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductImage" class="control-label"></label>
+                <input asp-for="ProductImage" class="form-control" type="file" />
+                <span asp-validation-for="ProductImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductCategoryId" class="control-label"></label>
+                <select asp-for="ProductCategoryId" id="ProductCategoryId" name="ProductCategoryId" class ="form-control" asp-items="ViewBag.ProductCategoryId">
+                    <option value="">Select</option>
+                </select>
+                <span asp-validation-for="ProductCategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductSubCategoryId" class="control-label"></label>
+                @*@Html.DropDownListFor(x => x.ProductSubCategoryId, new List<SelectListItem>(), "--Select--", new { @id="ddlSubCategory"});*@
+                <select asp-for="ProductSubCategoryId" id="ProductSubCategoryId" name="ProductSubCategoryId" class ="form-control" 
+                asp-items="@(new SelectList(string.Empty,"Id","Name"))">
+                    <option value="">Select</option>
+                </select>
+                <span asp-validation-for="ProductSubCategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

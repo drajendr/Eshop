@@ -1,0 +1,100 @@
+2022-02-18T11:37:21.2193880+05:30 [INF] () Application Starting Up
+2022-02-18T11:37:24.1544729+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 37.2799 ms
+2022-02-18T11:37:26.5207061+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin" responded 200 in 2304.3005 ms
+2022-02-18T11:42:09.6215003+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LogoutModel) User logged out.
+2022-02-18T11:42:09.6252659+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Logout" responded 302 in 121.7839 ms
+2022-02-18T11:42:09.8785841+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 201.0459 ms
+2022-02-18T11:42:15.1200782+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LoginModel) User logged in.
+2022-02-18T11:42:15.1272455+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Login" responded 302 in 572.5927 ms
+2022-02-18T11:42:15.2205068+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home/Index" responded 200 in 83.6645 ms
+2022-02-18T11:42:26.2381794+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LogoutModel) User logged out.
+2022-02-18T11:42:26.2388847+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Logout" responded 302 in 4.7085 ms
+2022-02-18T11:42:26.2774836+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 24.9351 ms
+2022-02-18T11:42:29.5342244+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LoginModel) User logged in.
+2022-02-18T11:42:29.5355069+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Login" responded 302 in 54.6666 ms
+2022-02-18T11:42:29.5463075+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Home/Index" responded 302 in 1.2503 ms
+2022-02-18T11:42:29.5975456+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin" responded 200 in 45.4499 ms
+2022-02-18T11:42:31.8138138+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Product/Create" responded 200 in 291.1688 ms
+2022-02-18T11:45:02.7493321+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin/Product/GetSubCategory" responded 200 in 93.2051 ms
+2022-02-18T11:45:06.3919793+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Admin/Product/Create" responded 302 in 489.7076 ms
+2022-02-18T11:45:06.4556950+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Admin" responded 200 in 55.2515 ms
+2022-02-18T11:45:18.0322944+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LogoutModel) User logged out.
+2022-02-18T11:45:18.0334940+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Logout" responded 302 in 8.0756 ms
+2022-02-18T11:45:18.0824627+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 27.6200 ms
+2022-02-18T11:45:20.9737455+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LoginModel) User logged in.
+2022-02-18T11:45:20.9749653+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Login" responded 302 in 79.2716 ms
+2022-02-18T11:45:21.0210205+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home/Index" responded 200 in 35.4267 ms
+2022-02-18T11:48:11.0296705+05:30 [INF] () Application Starting Up
+2022-02-18T11:48:22.3368126+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 115.3635 ms
+2022-02-18T11:48:25.3075089+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 2874.6146 ms
+2022-02-18T11:50:09.3461172+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 214.8632 ms
+2022-02-18T11:50:11.1414771+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 106.2105 ms
+2022-02-18T11:50:13.4482152+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 7
+2022-02-18T11:50:14.0495551+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/7" responded 302 in 658.0939 ms
+2022-02-18T11:50:14.2433775+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 177.6355 ms
+2022-02-18T11:50:21.1887202+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Removing product from cart. Product id - 7
+2022-02-18T11:50:21.1912357+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/remove/7" responded 302 in 6.6136 ms
+2022-02-18T11:50:21.2146230+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 14.0587 ms
+2022-02-18T11:50:23.3884049+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 51.8598 ms
+2022-02-18T12:16:53.5630774+05:30 [INF] () Application Starting Up
+2022-02-18T12:17:06.3635330+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 41.5540 ms
+2022-02-18T12:17:06.6107559+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 210.2854 ms
+2022-02-18T12:21:31.8485910+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 54.2186 ms
+2022-02-18T12:24:52.0696617+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 29.8517 ms
+2022-02-18T12:29:28.0788084+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 6
+2022-02-18T12:29:28.2463535+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/6" responded 302 in 197.4276 ms
+2022-02-18T12:29:28.3890906+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 130.9608 ms
+2022-02-18T12:29:30.0497875+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 16.4840 ms
+2022-02-18T12:29:32.1610310+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 7.6286 ms
+2022-02-18T12:29:33.8543575+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Removing product from cart. Product id - 6
+2022-02-18T12:29:33.8561263+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/remove/6" responded 302 in 6.9087 ms
+2022-02-18T12:29:33.8736666+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 10.4484 ms
+2022-02-18T12:29:40.2939281+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 15.2422 ms
+2022-02-18T12:29:41.3645116+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 7
+2022-02-18T12:29:41.3798374+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/7" responded 302 in 16.0605 ms
+2022-02-18T12:29:41.3990166+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 10.1676 ms
+2022-02-18T12:29:51.1235069+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 11.5060 ms
+2022-02-18T12:41:42.0946002+05:30 [INF] () Application Starting Up
+2022-02-18T12:41:45.2251949+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 32.4366 ms
+2022-02-18T12:42:04.0525023+05:30 [INF] () Application Starting Up
+2022-02-18T12:42:08.2315048+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 98.5120 ms
+2022-02-18T12:42:12.2176241+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 3905.5163 ms
+2022-02-18T12:42:15.3730630+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LogoutModel) User logged out.
+2022-02-18T12:42:15.3757617+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Logout" responded 302 in 112.3471 ms
+2022-02-18T12:42:15.5862720+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 176.0824 ms
+2022-02-18T12:42:17.9579530+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LoginModel) User logged in.
+2022-02-18T12:42:17.9683775+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Login" responded 302 in 768.4160 ms
+2022-02-18T12:42:18.0262880+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home/Index" responded 200 in 46.2266 ms
+2022-02-18T12:42:28.6644629+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Billing/Checkout" responded 200 in 43.7151 ms
+2022-02-18T12:50:01.1207728+05:30 [INF] () Application Starting Up
+2022-02-18T12:50:12.8578811+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 108.7260 ms
+2022-02-18T12:50:15.9850780+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 3021.8635 ms
+2022-02-18T12:50:49.4474893+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Billing/Checkout" responded 200 in 95.0787 ms
+2022-02-18T13:06:05.0805566+05:30 [INF] () Application Starting Up
+2022-02-18T13:06:09.0109822+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 35.4267 ms
+2022-02-18T13:06:10.8771126+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 1816.6929 ms
+2022-02-18T13:11:57.9734803+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 431.2818 ms
+2022-02-18T13:12:00.2348721+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 98.0115 ms
+2022-02-18T13:13:48.5897996+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 7
+2022-02-18T13:13:48.7039563+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/7" responded 302 in 131.2446 ms
+2022-02-18T13:13:48.7755539+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 61.9118 ms
+2022-02-18T13:16:18.9662437+05:30 [INF] () Application Starting Up
+2022-02-18T13:16:23.2318105+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/" responded 302 in 107.4517 ms
+2022-02-18T13:16:26.4613470+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 3128.4094 ms
+2022-02-18T13:16:29.5540357+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 7
+2022-02-18T13:16:30.2168383+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/7" responded 302 in 723.5901 ms
+2022-02-18T13:16:30.6612585+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 431.5049 ms
+2022-02-18T13:24:08.1692674+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Billing/Checkout" responded 200 in 49.4953 ms
+2022-02-18T13:27:31.3518122+05:30 [INF] () Application Starting Up
+2022-02-18T13:27:37.4014394+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Identity/Account/Login" responded 200 in 629.5868 ms
+2022-02-18T13:27:45.5609713+05:30 [INF] (EShop.Areas.Identity.Pages.Account.LoginModel) User logged in.
+2022-02-18T13:27:45.5646629+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/Identity/Account/Login" responded 302 in 3178.3820 ms
+2022-02-18T13:27:45.6895416+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home/Index" responded 200 in 110.4181 ms
+2022-02-18T13:27:47.3195638+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 210.1497 ms
+2022-02-18T13:27:49.1672437+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Home" responded 200 in 24.7404 ms
+2022-02-18T13:27:51.1543839+05:30 [INF] (EShop.Areas.Customer.Controllers.CartController) Adding product from cart. Product id - 6
+2022-02-18T13:27:51.3922665+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/buy/6" responded 302 in 244.3571 ms
+2022-02-18T13:27:51.4887550+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/index" responded 200 in 87.3694 ms
+2022-02-18T13:27:52.8841341+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Billing/Checkout" responded 200 in 64.2268 ms
+2022-02-18T13:30:00.7128444+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Billing/Checkout" responded 200 in 31.1111 ms
+2022-02-18T13:30:50.6257809+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/Customer/Billing/Checkout" responded 200 in 39.8826 ms
